@@ -9,7 +9,7 @@ const App = () => {
   const [tasks, setTasks] = useState<Task[]>([
     {
       id: 1,
-      title: "授業資料を作成する",
+      title: "会議資料を作成する",
       priority: "high",
       status: "todo",
       completedAt: null,
